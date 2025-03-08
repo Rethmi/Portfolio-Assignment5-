@@ -1,4 +1,4 @@
-/* Navigation Bar */
+ 
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensure it stays above other content */
+    z-index: 1000; 
     
 }
 
@@ -20,23 +20,23 @@
     text-decoration: none;
 }
 
-/* Menu Button (Burger) */
+ 
 .menu-btn {
     font-size: 24px;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
-    display: none; /* Hide on desktop */
+    display: none;  
     transition: transform 0.3s ease-in-out;
 }
 
-/* Burger Button Active State (Close Icon) */
+ 
 .menu-btn.active {
-    transform: rotate(90deg);  /* Rotate to show close effect */
+    transform: rotate(90deg);   
 }
 
-/* Navigation Links */
+ 
 .nav-links {
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
     color: aqua;
 }
 
-/* Mobile Styles */
+ 
 @media screen and (max-width: 768px) {
     .menu-btn {
         display: block;
